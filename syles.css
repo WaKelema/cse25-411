@@ -4,31 +4,26 @@ body {
     background: #f5f7fa;
 }
 
-nav {
+.navbar-custom {
     background: #0d1b2a;
-    padding: 12px;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10px;
 }
 
 .logo {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .nav-btn {
     background: #1b263b;
     color: white;
-    padding: 8px 12px;
-    margin: 5px;
+    padding: 6px 10px;
+    margin: 3px;
     border-radius: 5px;
     text-decoration: none;
-    transition: 0.3s;
+    font-size: 14px;
 }
 
 .nav-btn:hover {
@@ -37,7 +32,7 @@ nav {
 
 .hero {
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     background: white;
 }
 
@@ -48,7 +43,7 @@ nav {
 .card-box {
     background: white;
     padding: 15px;
-    margin: 15px 0;
+    margin: 10px 0;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
