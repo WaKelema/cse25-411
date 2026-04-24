@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 nav {
-    padding: 10px;
+    padding: 12px;
 }
 
 nav a {
@@ -14,8 +15,8 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 50px;
-    background: #f2f2f2;
+    padding: 40px;
+    background: #f4f4f4;
 }
 
 .section {
@@ -23,10 +24,30 @@ nav a {
 }
 
 .card-box {
-    background: #eee;
+    background: #f0f0f0;
     padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+
+    border: 3px solid #ccc;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
 }
 
 footer {
@@ -34,9 +55,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-.logo {
-    width: 45px;
-    border-radius: 50%;
 }
