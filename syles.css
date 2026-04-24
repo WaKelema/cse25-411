@@ -4,7 +4,6 @@ body {
     background: #f5f7fa;
 }
 
-/* NAVBAR */
 nav {
     background: #0d1b2a;
     padding: 12px;
@@ -16,14 +15,12 @@ nav {
     align-items: center;
 }
 
-/* LOGO */
 .logo {
     width: 45px;
     height: 45px;
     border-radius: 50%;
 }
 
-/* NAV BUTTONS */
 .nav-btn {
     background: #1b263b;
     color: white;
@@ -38,19 +35,16 @@ nav {
     background: #415a77;
 }
 
-/* HERO */
 .hero {
     text-align: center;
     padding: 50px;
     background: white;
 }
 
-/* SECTION */
 .section {
     padding: 30px;
 }
 
-/* CARDS */
 .card-box {
     background: white;
     padding: 15px;
@@ -59,7 +53,6 @@ nav {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* IMAGES */
 img {
     max-width: 100%;
     height: auto;
@@ -67,7 +60,6 @@ img {
     border: 2px solid #ddd;
 }
 
-/* FOOTER */
 footer {
     background: #0d1b2a;
     color: white;
