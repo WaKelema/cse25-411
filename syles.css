@@ -33,3 +33,23 @@ object-fit: cover;
 footer{
 margin-top: 40px;
 }
+
+.card{
+transition: 0.3s;
+}
+
+.card:hover{
+transform: translateY(-10px);
+}
+
+.btn-warning{
+font-weight: bold;
+}
+
+img{
+object-fit: cover;
+}
+
+section{
+min-height: 70vh;
+}
