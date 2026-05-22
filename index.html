@@ -1,109 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SecureTech Solutions Botswana — CCTV, alarms, access control and networking.">
-  <title>Home | SecureTech Solutions Botswana</title>
-  <link rel="stylesheet" href="style.css">
+  <title>SecureTech Solutions</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Navigation (same on every page — update links here if you add pages) -->
-  <header class="site-header" id="top">
-    <nav class="navbar" aria-label="Main navigation">
-      <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="" class="logo-img" onerror="this.style.display='none'">
-        <span class="logo-text">SecureTech<span class="logo-accent">Botswana</span></span>
-      </a>
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">SecureTech</div>
 
-      <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
 
-      <ul class="nav-menu" id="nav-menu">
-        <li><a href="index.html" class="nav-link active">Home</a></li>
-        <li><a href="about.html" class="nav-link">About Us</a></li>
-        <li class="nav-item-dropdown">
-          <button type="button" class="nav-link nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">
-            Services
-            <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
-              <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu" role="menu">
-            <li role="none"><a href="services.html" class="dropdown-link" role="menuitem">All Services</a></li>
-            <li role="none"><a href="cctv.html" class="dropdown-link" role="menuitem">CCTV Systems</a></li>
-            <li role="none"><a href="alarms.html" class="dropdown-link" role="menuitem">Alarm Systems</a></li>
-            <li role="none"><a href="access-control.html" class="dropdown-link" role="menuitem">Access Control</a></li>
-            <li role="none"><a href="maintenance.html" class="dropdown-link" role="menuitem">Maintenance</a></li>
-          </ul>
+        <li class="dropdown">
+          <a href="#">Services</a>
+          <div class="dropdown-menu">
+            <a href="cctv.html">CCTV Systems</a>
+            <a href="alarms.html">Alarm Systems</a>
+            <a href="access-control.html">Access Control</a>
+          </div>
         </li>
-        <li><a href="contact.html" class="nav-link nav-cta">Contact</a></li>
+
+        <li><a href="about.html">About</a></li>
       </ul>
+
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <!-- HOME: full-screen hero -->
-    <section class="hero">
-      <div class="hero-media">
-        <img src="images/hero.jpg" alt="Professional security installation" class="hero-image">
-        <div class="hero-overlay"></div>
-      </div>
-      <div class="container hero-content">
-        <p class="hero-tagline">Protecting what matters most</p>
-        <h1>SecureTech Solutions Botswana</h1>
-        <p class="hero-intro">
-          Your trusted partner for modern security systems — from residential CCTV to enterprise access control and networking.
-        </p>
-        <div class="hero-actions">
-          <a href="services.html" class="btn btn-primary">Our Services</a>
-          <a href="contact.html" class="btn btn-outline">Get a Quote</a>
-        </div>
-      </div>
-    </section>
+<section class="hero">
+  <div>
+    <h1>Modern Security Solutions</h1>
+    <p>CCTV • Alarms • Access Control • Networking</p>
+    <a class="btn" href="cctv.html">Explore Services</a>
+  </div>
+</section>
 
-    <!-- HOME: short intro (links to other pages) -->
-    <section class="section home-intro">
-      <div class="container">
-        <header class="section-header section-header--center">
-          <span class="section-label">Welcome</span>
-          <h2>Security built for Botswana</h2>
-          <p class="section-subtitle">
-            We design, install and maintain CCTV, alarms, access control and network solutions for homes, offices and organisations across the country.
-          </p>
-        </header>
-        <div class="home-cards">
-          <a href="about.html" class="home-card">
-            <h3>About Us</h3>
-            <p>Learn who we are and why clients trust SecureTech.</p>
-            <span class="home-card-link">Read more →</span>
-          </a>
-          <a href="services.html" class="home-card">
-            <h3>Our Services</h3>
-            <p>CCTV, alarms, access control, maintenance and more.</p>
-            <span class="home-card-link">View services →</span>
-          </a>
-          <a href="contact.html" class="home-card">
-            <h3>Contact</h3>
-            <p>Request a quote or ask our team a question.</p>
-            <span class="home-card-link">Get in touch →</span>
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
+<section class="container">
+  <h2>Our Services</h2>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; <span class="year"></span> SecureTech Solutions Botswana. All rights reserved.</p>
-      <a href="#top" class="footer-top">Back to top ↑</a>
-    </div>
-  </footer>
+  <div class="card">
+    CCTV Installation & Monitoring
+  </div>
 
-  <script src="script.js"></script>
+  <div class="card">
+    Alarm Systems for Homes & Businesses
+  </div>
+
+  <div class="card">
+    Access Control & Security Networks
+  </div>
+</section>
+
+<footer>
+  © 2026 SecureTech Solutions Botswana
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
